@@ -1,0 +1,26 @@
+{
+  "name": "strava-api-starter",
+  "version": "1.0.0",
+  "description": "Single-account Strava API starter with PostgreSQL and optional authenticated MCP",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "axios": "^1.20.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jose": "6.2.13",
+    "pg": "^8.23.0",
+    "zod": "4.6.7"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
